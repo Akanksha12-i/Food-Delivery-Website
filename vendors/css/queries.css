@@ -1,0 +1,113 @@
+/*For making wesite responsive*/
+/*Big Tablets to 1200 px*/
+@media only screen and (max-width:1200px){
+    .foodic{
+        width: 100%;
+        padding:0 2%;
+    }
+    .row{
+        padding:0 2%;
+    }
+}
+
+/*Small Tablets to Big Tablets from 794px to 1023px */
+@media only screen and (max-width:1023px){
+    .body{
+        font-size:10%;
+    }
+    .mainnav li{
+        font-size:70%;
+    }
+    .long{
+        width:80%;
+        margin-left: 10%;
+    }
+    .body{
+        font-size:18px;
+    }
+    .section{
+        padding:60px 0;
+    }
+    .box{
+        padding: 0%;
+     margin:5px;
+    }
+    .box img{
+        width:180px;
+        height: 160px;
+    }
+    .city-feature{
+        font-size: 80%;
+    }
+    .plan{
+        font-size: 240%;
+    }
+    .plan-box ul li{
+        font-size:80%;
+        font-weight: 300;
+    }
+    footer{
+        font-size: 70%;
+    }
+    .icon-for-city{
+     margin-right: 2px;
+    }
+    .plan{
+       font-size: 200%; 
+    }
+   
+}
+
+/*Small phones to small Tablets fron 481 to 767*/
+@media only screen and (max-width:793px){
+body{font-size:16px;}
+section{padding:30px 0px}
+.row,
+.foodic{padding:0 4%;}
+.col{
+    width:100%;
+    margin:0 0 4% 0;
+}
+.mobile{
+    width:40%;
+}
+.work-steps div{
+    height:40px;
+    width:40px;
+    margin-right:15px;
+    margin-bottom: 5px;
+    padding:4px;
+    font-size:120%;
+}
+.work-steps{
+    margin-bottom:40px;
+    width: 100%;
+}
+.work-steps:last-of-type{
+    margin-bottom:30px;
+}
+.mainnav{
+    display:none;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+}
+.city-feature{
+    font-size: 90%;
+}
+.form-part{
+    width: 100%;
+}
+}
+
+/*Small phones:from 0 to 480px*/
+@media only screen and (max-width:480px){
+section{
+    padding:25px 0;
+}
+.form-part{
+    width: 100%;
+}
+}
